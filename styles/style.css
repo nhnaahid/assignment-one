@@ -7,7 +7,7 @@
 .container {
     width: 75%;
     max-width: 1320px;
-    margin: 2% auto;
+    margin: 1% auto;
 }
 
 /* Header-Banner Style */
@@ -43,6 +43,7 @@
     max-width: 1320px;
     margin: 5% auto;
 }
+
 .discount-text h1 {
     color: #F00;
     text-align: center;
@@ -71,4 +72,51 @@
 
 .discount-img {
     margin-top: 5%;
+}
+
+/* Midnight Party Style */
+.party {
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(../images/banner/Vectorrr.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    height: 480px;
+}
+.party-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.party-text{
+    width: 40%;
+    margin: 10%;
+}
+.party-text h1 {
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 42px;
+    font-weight: 900;
+    letter-spacing: 5px;
+}
+.party-text p {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 2%;
+    margin-bottom: 8%;
+}
+
+.party-text a {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 700;
+    text-decoration: none;
+    margin-left: 25px;
+}
+.party-img img {
+    width: 70%;
+    height: auto;
+    padding-top: 20%;
 }
