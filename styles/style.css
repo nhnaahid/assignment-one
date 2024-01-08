@@ -227,7 +227,7 @@
 /* Footer style */
 footer {
     background: #070211;
-    height: 500px;
+    height: 450px;
 }
 
 footer p {
@@ -240,6 +240,9 @@ footer p {
 footer hr{
     width: 75%;
     margin: 0 auto;
+    border: none;
+    background: rgba(255, 255, 255, 0.15);
+    height: 1px;
 }
 
 .footer-section-top{
@@ -265,5 +268,5 @@ footer hr{
     justify-content: space-between;
     width: 70%;
     margin: auto;
-    padding-top: 10%;
+    padding-top: 5%;
 }
