@@ -10,8 +10,9 @@
     margin: 2% auto;
 }
 
+/* Header-Banner Style */
 .banner {
-    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url("../images/banner/banner.png");
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("../images/banner/banner.png");
     background-size: contain;
     background-repeat: no-repeat;
     border-radius: 8px;
@@ -34,4 +35,40 @@
     font-size: 54px;
     font-weight: 900;
     padding: 1% 20%;
+}
+
+/* Discount Style */
+.discount {
+    width: 50%;
+    max-width: 1320px;
+    margin: 5% auto;
+}
+.discount-text h1 {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 4%;
+}
+
+.discount-text p {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 2%;
+}
+
+.discount-text h3 {
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 26px;
+    font-weight: 800;
+}
+
+.discount-img {
+    margin-top: 5%;
 }
