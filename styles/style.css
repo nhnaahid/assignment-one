@@ -1,0 +1,37 @@
+/* Shared Style */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 75%;
+    max-width: 1320px;
+    margin: 2% auto;
+}
+
+.banner {
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url("../images/banner/banner.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    height: 495px;
+}
+
+.banner-text1 {
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 24px;
+    font-weight: 400;
+    padding-top: 10%;
+}
+
+.banner-text2 {
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 54px;
+    font-weight: 900;
+    padding: 1% 20%;
+}
