@@ -170,6 +170,7 @@
     background: rgba(255, 0, 0, 0.05);
     text-align: center;
     margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 .newsletter-icon {
@@ -191,12 +192,14 @@
     font-weight: 400;
     padding: 1% 20%;
 }
-.newsletter-box-btn{
+
+.newsletter-box-btn {
     display: flex;
     justify-content: center;
     gap: 0px;
     margin-top: 2%;
 }
+
 .newsletter-box-btn input {
     border-radius: 50px 0px 0px 50px;
     background: #FFF;
@@ -219,4 +222,48 @@
     font-size: 18px;
     font-weight: 600;
     padding: 1.2%;
+}
+
+/* Footer style */
+footer {
+    background: #070211;
+    height: 500px;
+}
+
+footer p {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 25px;
+}
+footer hr{
+    width: 75%;
+    margin: 0 auto;
+}
+
+.footer-section-top{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    /* height: 1%; */
+    margin: 5% auto 0px;
+    padding: 5%;
+    align-items: center;
+}
+.social-container{
+    text-align: center;
+    margin: 2% 0;
+}
+.social-container img{
+    margin-right: 3px;
+    height: 36px;
+    width: 36px;
+}
+.footer-section-bottom{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: auto;
+    padding-top: 10%;
 }
