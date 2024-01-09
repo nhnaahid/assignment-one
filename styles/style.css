@@ -218,10 +218,10 @@
 
 /* Holiday Sale section */
 .sale {
-    height: 750px;
-    /* background-color: antiquewhite; */
+    height: 760px;
+    /* background-color:aquamarine; */
     margin-top: 4%;
-    margin-bottom: 10%;
+    margin-bottom: 7%;
 }
 
 .sale-top {
@@ -270,7 +270,7 @@
 .sale-mid-img1 {
     position: relative;
     top: 0px;
-    left: 150px;
+    left: 170px;
 }
 
 .sale-bottom {
@@ -280,6 +280,20 @@
 }
 
 .sale-bottom img {
+    width: 100%;
+    height: 100%;
+}
+
+.sale-bottom-left {
+    width: 50%;
+    height: 450px;
+    /* background-color: aquamarine; */
+    position: relative;
+    bottom: 500px;
+    left: 2px;
+}
+
+.sale-bottom-left img {
     width: 100%;
     height: 100%;
 }
@@ -317,8 +331,9 @@
     line-height: 22px;
     margin-top: 10px;
 }
+
 /* Porfolio images */
-.portfolio-items1{
+.portfolio-items1 {
     width: 100%;
     /* height: 820px; */
     /* background-color: antiquewhite; */
@@ -327,7 +342,8 @@
     justify-content: space-between;
     /* gap: 10px; */
 }
-.portfolio-items2{
+
+.portfolio-items2 {
     width: 100%;
     /* height: 820px; */
     /* background-color: antiquewhite; */
@@ -336,17 +352,20 @@
     justify-content: space-between;
     /* gap: 10px; */
 }
-.portfolio-img-container{
+
+.portfolio-img-container {
     width: 31%;
     height: 300px;
     /* background-color: aquamarine; */
 }
-.portfolio img{
+
+.portfolio img {
     width: 100%;
     height: 100%;
 }
-.portfolio img:hover{
-    border: 2px solid white;
+
+.portfolio img:hover {
+    /* border: 2px solid white; */
     border-radius: 16px;
     box-shadow: 5px 5px 5px 5px rgb(131, 123, 123);
 }
