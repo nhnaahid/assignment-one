@@ -112,13 +112,15 @@
     margin-bottom: 8%;
 }
 
-.party-text a {
+.party-text button {
     color: #FFF;
     font-family: Inter;
     font-size: 15px;
     font-weight: 700;
     text-decoration: none;
     margin-left: 25px;
+    background: none;
+    border: none;
 }
 
 .party-img img {
