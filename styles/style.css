@@ -275,7 +275,7 @@
 
 .sale-bottom {
     width: 100%;
-    height: 200px;
+    height: 170px;
     margin-top: -5px;
 }
 
@@ -344,6 +344,11 @@
 .portfolio img{
     width: 100%;
     height: 100%;
+}
+.portfolio img:hover{
+    border: 2px solid white;
+    border-radius: 16px;
+    box-shadow: 5px 5px 5px 5px rgb(131, 123, 123);
 }
 
 /* Newsletter Style */
