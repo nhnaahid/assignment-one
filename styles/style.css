@@ -167,11 +167,11 @@
 .coming-soon {
     height: 500px;
     /* background: rgba(255, 0, 0, 0.05); */
-    margin-top: 3%;
+    margin-top: 1%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 100px;
+    gap: 80px;
 }
 
 .coming-soon p {
@@ -206,12 +206,144 @@
     font-size: 34px;
     font-weight: 700;
     margin-bottom: 10px;
+    margin-right: 115px;
 }
 
 .coming-soon-mid {
     border-radius: 450px;
     border: 12px solid #F00;
     padding: 22px;
+    margin-right: 55px;
+}
+
+/* Holiday Sale section */
+.sale {
+    height: 750px;
+    /* background-color: antiquewhite; */
+    margin-top: 4%;
+    margin-bottom: 10%;
+}
+
+.sale-top {
+    text-align: center;
+    width: 70%;
+    margin: auto;
+}
+
+.sale-top h5 {
+    color: #070211;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.sale-top h1 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 54px;
+    font-weight: 900;
+}
+
+.sale-top span {
+    color: #F00;
+    font-family: Merriweather;
+    font-size: 54px;
+    font-weight: 900;
+}
+
+.sale-top p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    margin-top: 2%;
+}
+
+.sale-mid {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin-top: 2%;
+}
+
+.sale-mid-img1 {
+    position: relative;
+    top: 0px;
+    left: 150px;
+}
+
+.sale-bottom {
+    width: 100%;
+    height: 200px;
+    margin-top: -5px;
+}
+
+.sale-bottom img {
+    width: 100%;
+    height: 100%;
+}
+
+/* Awesome Portfolio Style */
+.portfolio {
+    height: 770px;
+    /* background-color: aliceblue; */
+}
+
+.portfolio-text {
+    width: 70%;
+}
+
+.portfolio-text h5 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.portfolio-text h1 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 40px;
+    font-weight: 900;
+    margin-top: 5px;
+}
+
+.portfolio-text p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    margin-top: 10px;
+}
+/* Porfolio images */
+.portfolio-items1{
+    width: 100%;
+    /* height: 820px; */
+    /* background-color: antiquewhite; */
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    /* gap: 10px; */
+}
+.portfolio-items2{
+    width: 100%;
+    /* height: 820px; */
+    /* background-color: antiquewhite; */
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    /* gap: 10px; */
+}
+.portfolio-img-container{
+    width: 31%;
+    height: 300px;
+    /* background-color: aquamarine; */
+}
+.portfolio img{
+    width: 100%;
+    height: 100%;
 }
 
 /* Newsletter Style */
